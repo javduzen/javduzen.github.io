@@ -1,3 +1,11 @@
+title: "Javduzen Daily"
+description: "Daily notes and posts"
+# If this is a project site (repo under javduzen named javduzendaily.github.io),
+# set baseurl to "/javduzendaily.github.io". For a user site (javduzen.github.io) leave it empty.
+baseurl: "" # change to "/javduzendaily.github.io" if this is a project site
+# Set url to your published site URL (optional, used for feed/absolute links)
+url: ""
 theme: jekyll-theme-hacker
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+plugins:
+  - jekyll-feed
+paginate: 5
